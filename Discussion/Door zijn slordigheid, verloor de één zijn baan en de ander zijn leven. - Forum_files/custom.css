@@ -73,7 +73,6 @@ body > #Frame > .Head {
 	display: block;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-	display: none;
 }
 
 #Head .Row {
@@ -91,20 +90,9 @@ body > #Frame > .Head {
     width: 100%;
     color: #fff;
 }
-#Head .SiteTitle:before{
-    content: "Duivelsei Forum";
-}
-
-#Panel .FilterMenu li{
-    border: none;
-}
-
-#Panel li{
-    border: none;
-}
 
 #Head .SiteTitle{
-    display: inline-block block;
+    display: block;
 }
 
 #Head .SiteSearch {
