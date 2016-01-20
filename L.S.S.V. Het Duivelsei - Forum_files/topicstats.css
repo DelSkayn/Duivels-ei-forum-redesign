@@ -1,0 +1,51 @@
+.StatBox {
+   /* background: #004C9B; */
+	padding: 5px 5px 0;
+	float: right;
+	height: 38px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 1.2;
+}
+.StatBox span {
+	display: block;
+	font-weight: normal;
+	font-size:9px;
+	line-height: 1;
+	padding-bottom:2px;
+	min-width:38px;
+}
+.StatBox,
+.StatBox a {
+	/* color: #99e2fe; */
+	display: block;
+}
+.StatBox a {
+	position: relative;
+	z-index: 10;
+}
+/*
+.StatBox a:hover {
+	color: #fff;
+	text-shadow: 0 0px 5px #fff;
+}
+*/
+/*
+.ViewsBox { background: #0065CE; }
+.FollowsBox { background: #0053A9; }
+*/
+.AnswersBox {
+	/* background: #0053A9; */
+	margin-right: 4px;
+   border-top-right-radius: 2px;
+   border-bottom-right-radius: 2px;
+	-webkit-border-top-right-radius: 2px;
+	-webkit-border-bottom-right-radius: 2px;
+	-moz-border-radius-topright: 2px;
+	-moz-border-radius-bottomright: 2px;
+}
+/*
+.HasAnswersBox { background: #013b76; }
+.HasAnswersBox a { color: #fff; }
+*/
