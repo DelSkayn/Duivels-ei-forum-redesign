@@ -12,6 +12,10 @@ body{
 }
 
 
+#loginPanel .panelContent{
+    background-color: #AD2A1A !important;
+}
+
 #Body > .Row    {
     width: 100%;
     margin: 0;
@@ -20,12 +24,52 @@ body{
     padding-bottom: px;
 }
 
-.H{
-    display: none;
+.Button:active{
+    box-shadow: none;
+    background-color: #791F14;
 }
 
-.P{
-    display: none;
+.Button:hover{
+    box-shadow: 0px 1px 2px #000;
+    background-color: #962416;
+}
+
+.Button{
+    font-size: 14px;
+    box-shadow: 0px 2px 4px #000;
+    background-image: none;
+    text-shadow: none;
+    font-weight: normal;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-weight: lighter;
+    color: #fff;
+    background-color: #AD2A1A;
+}
+
+.BigButton:active{
+    box-shadow: none;
+    background-color: #791F14;
+}
+
+.BigButton:hover{
+    box-shadow: 0px 1px 2px #000;
+    background-color: #962416;
+}
+
+.BigButton{
+    font-size: 18px;
+    box-shadow: 0px 2px 4px #000;
+    background-image: none;
+    text-shadow: none;
+    font-weight: normal;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-weight: lighter;
+    color: #fff;
+    background-color: #AD2A1A;
 }
 
 .PageControls{
@@ -87,7 +131,7 @@ body > #Frame > .Head {
     margin-bottom: 0;
     margin-left: 0;
     background: #AD2A1A;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.55);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.55);
     width: 100%;
     color: #fff;
 }
@@ -200,22 +244,6 @@ overflow: hidden;
 }
 
 
-.BigButton{
-    background-image: none;
-    font-size: larger;
-    text-align: center;
-    text-shadow: none;
-    border: none;
-    border-radius: 4px;
-    font-weight: lighter;
-}
-
-.BigButton:hover{
-    -webkit-box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
-    box-shadow: inset 0px 0px 4px 0px rgb(0, 0, 0);
-}
-
 .BreadcrumbsWrapper{
     display: none;
     padding-top: 9px;
@@ -231,6 +259,13 @@ overflow: hidden;
     margin-bottom: 10px;
 }
 
+.HomepageTitle{
+    display:none;
+}
+
+.PageDescription{
+    display:none;
+}
 
 .ContentColumn {
     /* width: 100%; */
@@ -338,6 +373,10 @@ overflow: hidden;
     margin-bottom: 10px;
 }
 
+.UserSignature{
+    border-top: 2px solid #ddd;
+}
+
 /* Style for items which are read */
 .Item.Read {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
@@ -362,9 +401,9 @@ overflow: hidden;
     -moz-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.65);
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.85);
     background-color: #AD2A1A;
-    margin-left: 1vw;
-    margin-right: 1vw;
     margin-top: 0;
+    min-height: 30px;
+    padding-top: 5px;
 }
 
 .Onlinemodule .Box {
@@ -458,10 +497,13 @@ blockquote, blockquote.UserQuote {
     border-left: 4px solid rgba(216, 0, 0, 0.55);
     box-shadow: #CED2DB 0 1px 2px 0
 }
+#Foot{
+    padding-top: 15px;
+}
+
 
 #Foot .BreadcrumbsWrapper{
         padding: 15px;
-        padding-top: 15px;
         padding-right: 15px;
         padding-bottom: 15px;
         padding-left: 15px;
@@ -509,3 +551,69 @@ blockquote, blockquote.UserQuote {
 h4 > a{
     color: #fff;
 }
+
+/* ================= Dedidicated to the imput form ============================= */
+
+.DiscussionForm{
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.55);
+}
+
+.DiscussionForm h1{
+    font-weight: lighter;
+}
+
+.FormWrapper{
+    border-top: 1px solid #9e9e9e;
+    background: none;
+}
+
+
+#Form_Name:focus{
+    border-bottom: 2px solid #AD2A1A;
+}
+#Form_Body:focus{
+    border-bottom: 2px solid #AD2A1A;
+}
+
+
+#Form_CategoryID{
+    background-color: #fff;
+    border:none;
+    padding: 0;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    font-weight: normal;
+    border-bottom: 2px solid #9e9e9e;
+}
+
+#Form_Name{
+    background-color: #fff;
+    border:none;
+    padding: 0;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    font-weight: normal;
+    border-bottom: 2px solid #9e9e9e;
+}
+
+
+
+#Form_Body{
+    background-color: #fff;
+    border:none;
+    padding: 0;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    font-weight: normal;
+    border-bottom: 2px solid #9e9e9e;
+}
+
+#Form_Name::-webkit-input-placeholder::after {
+    display:block;
+    content:"Title";
+}
+
+
+
