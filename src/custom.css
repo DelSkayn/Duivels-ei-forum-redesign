@@ -13,8 +13,8 @@ body {
     width: 730px;
     background-image: url(http://plaatjes.duivelsei.nl/dui-ei%20logo%20grijs600%20-%20lichter.png);
     background-repeat: no-repeat;
-    background-position-x: 100%;
-    background-position-y: 99%;
+    background-attachment: fixed;
+    background-position: bottom right;
 }
 
 
