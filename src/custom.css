@@ -65,6 +65,14 @@ body{
     background-color: #962416;
 }
 
+/* fix for weird button in bestuur board */
+.ProfileOptions > .NavButton{
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+}
+
 .ProfileOptions{
     margin-top: 15px;
     margin-right: 15px;
