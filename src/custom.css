@@ -32,14 +32,15 @@ body {
     padding-bottom: px;
 }
 
-.NavButton:active{
-    box-shadow: none;
-    background-color: #791F14;
-}
 
 .NavButton:hover{
     box-shadow: 0px 1px 2px #000;
     background-color: #962416;
+}
+
+.NavButton:active{
+    box-shadow: none;
+    background-color: #791F14;
 }
 
 .NavButton{
@@ -59,15 +60,14 @@ body {
     margin-bottom: 5px;
 }
 
-.Button:active{
-    box-shadow: none;
-    background-color: #791F14;
-}
-
-
 .Button:hover{
     box-shadow: 0px 1px 2px #000;
     background-color: #962416;
+}
+
+.Button:active{
+    box-shadow: none;
+    background-color: #791F14;
 }
 
 .Button{
