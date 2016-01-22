@@ -412,6 +412,21 @@ overflow: hidden;
     border-top: 2px solid #ddd;
 }
 
+.Back{
+    font-size: 14px;
+    box-shadow: 0px 2px 4px #000;
+    background-image: none;
+    text-shadow: none;
+    font-weight: normal;
+    padding: 6px;
+    border: none;
+    border-radius: 3px;
+    font-weight: lighter;
+    background-color: #fff;
+    margin-bottom: 5px;
+    border: solid 1px #eee;
+}
+
 /* Style for items which are read */
 .Item.Read {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
@@ -515,9 +530,6 @@ overflow: hidden;
    max-width: 600px !important;
 }
 
-.MessageForm {
-    background: transparent !important;
-}
 
 .LocaleOptions {
     color:  black;
