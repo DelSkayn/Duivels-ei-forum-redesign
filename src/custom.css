@@ -8,9 +8,6 @@ body {
     font-family: 'Open Sans', sans-serif;
     height: 100%;
     background-color: hsla(0,0%,85%,1);
-    min-width: 600px;
-    width: auto !important;
-    width: 600px;
     background-image: url(http://plaatjes.duivelsei.nl/dui-ei%20logo%20grijs600%20-%20lichter.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -31,7 +28,6 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    /* overflow: hidden; */
     padding-bottom: px;
 }
 
@@ -251,7 +247,6 @@ body > #Frame > .Head {
 
 #Head .SiteMenu a:hover{
     text-decoration: none;
-    font-weight: bolder;
     background-color: rgba(0, 0, 0, 0.13);
 }
 
@@ -271,19 +266,12 @@ body > #Frame > .Head {
     float: left;
     position: relative;
     padding: 10px;
-    /* box-sizing: border-box; */
     background: hsla(0, 3%, 8%, 0.92);
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.85);
     color: #fff;
     padding-bottom: 10px;
-    z-index: -1;
+    width: 200px
 }
-
-@media screen and (min-width: 1160px){
-    #Panel{
-        width: 16%;
-    }
-} 
 
 
 #Panel .Count{
@@ -330,20 +318,14 @@ body > #Frame > .Head {
 }
 
 
-
-
-.BreadcrumbsWrapper{
-    display: none;
-    padding-top: 9px;
-    margin-top: 15px;
-    margin-right: -73px;
+.SaveTheBreadcrumbs{
+    width: 100%;
 }
 
-@media screen and (min-width: 1160px){
-    .BreadcrumbsWrapper{
-    }
-} 
-
+.BreadcrumbsWrapper{
+    padding-top: 9px;
+    margin-top: 15px;
+}
 
 .Breadcrumbs{
     margin-left: 18px;
@@ -511,7 +493,7 @@ body > #Frame > .Head {
 
 
 #Foot {
-    /* z-index: 6; */
+    position: relative;
     clear: both;
     text-align: center;
     margin: 0;
@@ -524,6 +506,7 @@ body > #Frame > .Head {
     margin-top: 0;
     min-height: 30px;
     padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 .Onlinemodule .Box {
@@ -600,10 +583,7 @@ blockquote, blockquote.UserQuote {
     border-left: 4px solid rgba(216, 0, 0, 0.55);
     box-shadow: #CED2DB 0 1px 2px 0
 }
-#Foot{
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
+ 
 
 
 #Foot .BreadcrumbsWrapper{
@@ -639,9 +619,10 @@ blockquote, blockquote.UserQuote {
 .Section-Category-asiacie .Role_Asiacie {
     background-color: hsl(0, 100%, 100%);
     background-image: url(http://plaatjes.duivelsei.nl/Commissienamen/Asiacie.png);
+    background-size: 180px 40px;
     background-repeat: no-repeat;
-    background-position-x:  right;
-    background-position-y:  10px;
+    background-position-x:  100%;
+    background-position-y:  15px;
 }
 
 
@@ -657,17 +638,19 @@ blockquote, blockquote.UserQuote {
 .Section-Category-Magiccie .Role_Magiccie {
     background-color: hsl(0, 100%, 100%);
     background-image: url(http://plaatjes.duivelsei.nl/Commissienamen/Magiccie.png);
+    background-size: 180px 40px;
     background-repeat: no-repeat;
-    background-position-x:  right;
-    background-position-y:  10px;
+    background-position-x:  100%;
+    background-position-y:  15px;
 }
 
 .Section-Category-humans-versus-zombies .Role_Apocalypcie {
     background-color: hsl(0, 100%, 100%);
     background-image: url(http://plaatjes.duivelsei.nl/Commissienamen/Apocalypcie.png);
+    background-size: 180px 40px;
     background-repeat: no-repeat;
-    background-position-x:  right;
-    background-position-y:  10px;
+    background-position-x:  100%;
+    background-position-y:  15px;;
 }
 
 .MItem{
