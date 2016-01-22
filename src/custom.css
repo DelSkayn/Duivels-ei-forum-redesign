@@ -712,6 +712,9 @@ h4 > a{
 
 #Form_Go{
     margin-top: 8px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
 }
 
 
