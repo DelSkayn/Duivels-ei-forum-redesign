@@ -8,6 +8,9 @@ body{
     font-family: 'Open Sans', sans-serif;
     height: 100%;
     background-color: hsla(0,0%,85%,1);
+    min-width: 730px;
+    width: auto !important;
+    width: 730px;
     background-image: url(http://4.bp.blogspot.com/-Ppq8TAWLHtY/Vdsb7vQ0fqI/AAAAAAAACeo/KwufsBsRXRc/s0/dui-ei%2Blogo%2Bgrijs600.png) no-repeat fixed bottom right;
 }
 
@@ -15,6 +18,7 @@ body{
 #loginPanel .panelContent{
     background-color: #AD2A1A !important;
 }
+
 
 #Body > .Row    {
     width: 100%;
@@ -46,6 +50,7 @@ body{
     font-weight: lighter;
     color: #fff;
     background-color: #AD2A1A;
+    margin-bottom: 5px;
 }
 
 .BigButton:active{
@@ -70,6 +75,7 @@ body{
     font-weight: lighter;
     color: #fff;
     background-color: #AD2A1A;
+    overflow: hidden;
 }
 
 .PageControls{
@@ -189,9 +195,11 @@ body > #Frame > .Head {
     width: 100%;
 }
 
+
+
 #Panel {
     display: table-cell;
-    width: 16%;
+    width: 25%;
     float: left;
     padding: 10px;
     box-sizing: border-box;
@@ -215,6 +223,13 @@ overflow: hidden;
     padding-bottom: 99999px;
 }
 
+@media screen and (min-width: 1160px){
+    #Panel{
+        width: 16%;
+    }
+} 
+
+
 #Panel .Count{
     background-color: inherit;
     font-weight: bolder;
@@ -236,6 +251,23 @@ overflow: hidden;
     padding-left: 10px;
     margin-bottom: 3px;
 }
+
+.SpNotifications{
+    background-position: -32px -212px;
+}
+
+.SpInbox{
+    background-position: 0 -228px;
+}
+
+.SpBookmarks{
+    background-position: -80px -244px;
+}
+
+.SpOptions{
+    background-position: 0 -212px;
+}
+
 
 .PostDate{
     /* font-size: 11px; */
@@ -273,10 +305,20 @@ overflow: hidden;
     box-sizing: border-box;
     background: none;
     margin: 0;
-    margin-left: 16%;
-    -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.85);
-    -moz-box-shadow:    0px 4px 10px 0px rgba(0, 0, 0, 0.85);
-    box-shadow:         0px 4px 10px 0px rgba(0, 0, 0, 0.85);
+    margin-left: 25%;
+}
+
+@media screen and (min-width: 1160px){
+    .ContentColumn{
+        margin-left: 16%;
+    }
+} 
+
+.Empty{
+    display: block;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: #CED2DB 0 1px 2px 0;
 }
 
 .ItemDiscussion .Meta,
@@ -360,15 +402,8 @@ overflow: hidden;
     position: relative;
 }
 
-.ContentColumn .ItemDiscussion{
-    background-color: hsla(0,0%,94%,1);
-    box-shadow: #CED2DB 0 1px 2px 0;
-    margin-bottom: 10px;
-}
-
-
-.ContentColumn .ItemComment{
-    background-color: #fff;
+.ContentColumn .Item{
+    background-color: hsl(0, 100%, 100%);
     box-shadow: #CED2DB 0 1px 2px 0;
     margin-bottom: 10px;
 }
@@ -554,10 +589,23 @@ h4 > a{
 
 /* ================= Dedidicated to the imput form ============================= */
 
+.FormTitleWrapper{
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: #CED2DB 0 1px 2px 0;
+}
+
 .DiscussionForm{
     padding: 15px;
     background-color: #fff;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.55);
+    box-shadow:#CED2DB 0 1px 2px 0;
+}
+
+.ActivityFormWrap{
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: #CED2DB 0 1px 2px 0;
+    margin-bottom: 10px;
 }
 
 .DiscussionForm h1{
@@ -565,18 +613,23 @@ h4 > a{
 }
 
 .FormWrapper{
-    border-top: 1px solid #9e9e9e;
+    padding: 0;
+    padding-top: 10px;
     background: none;
+     border-top: 1px solid #9e9e9e;
+}
+
+#Form_Go{
+    margin-top: 8px;
 }
 
 
-#Form_Name:focus{
+input.InputBox:focus{
     border-bottom: 2px solid #AD2A1A;
 }
-#Form_Body:focus{
+textarea.TextBox:focus{
     border-bottom: 2px solid #AD2A1A;
 }
-
 
 #Form_CategoryID{
     background-color: #fff;
@@ -588,19 +641,17 @@ h4 > a{
     border-bottom: 2px solid #9e9e9e;
 }
 
-#Form_Name{
+input.InputBox{
     background-color: #fff;
     border:none;
-    padding: 0;
-    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-bottom: 6px;
     font-size: 1rem;
     font-weight: normal;
     border-bottom: 2px solid #9e9e9e;
 }
 
-
-
-#Form_Body{
+textarea.TextBox{
     background-color: #fff;
     border:none;
     padding: 0;
@@ -614,6 +665,5 @@ h4 > a{
     display:block;
     content:"Title";
 }
-
 
 
