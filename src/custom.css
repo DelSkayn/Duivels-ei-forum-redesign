@@ -644,25 +644,47 @@ blockquote, blockquote.UserQuote {
 }
 
 
-.Section-Accie .Role_Accie {
-    background: url(http://plaatjes.duivelsei.nl/Commissienamen/Accie.png) no-repeat top right;
+.Section-Category-Accie .Role_Accie {
+    background-color: hsl(0, 100%, 100%);
+    background-image: url(http://plaatjes.duivelsei.nl/Commissienamen/Accie.png);
+    background-size: 180px 40px;
+    background-repeat: no-repeat;
+    background-position-x:  100%;
+    background-position-y:  15px;
 }
 
 .Section-Category-asiacie .Role_Asiacie {
-    background: url(http://plaatjes.duivelsei.nl/Commissienamen/Asiacie.png) no-repeat top right;
+    background-color: hsl(0, 100%, 100%);
+    background-image: url(http://plaatjes.duivelsei.nl/Commissienamen/Asiacie.png);
+    background-repeat: no-repeat;
+    background-position-x:  right;
+    background-position-y:  10px;
 }
 
 
 .Section-Category-rpgcie .Role_RPGcie {
-    background: url(http://plaatjes.duivelsei.nl/Commissienamen/RPGcie.png) no-repeat top right;
+    background-color: hsl(0, 100%, 100%);
+    background-image: url(http://plaatjes.duivelsei.nl/Commissienamen/RPGcie.png);
+    background-size: 180px 50px;
+    background-repeat: no-repeat;
+    background-position-x:  right;
+    background-position-y:  10px;
 }
 
-.Section-Magiccie .Role_Magiccie {
-    background: url(http://plaatjes.duivelsei.nl/Commissienamen/Magiccie.png) no-repeat top right;
+.Section-Category-Magiccie .Role_Magiccie {
+    background-color: hsl(0, 100%, 100%);
+    background-image: url(http://plaatjes.duivelsei.nl/Commissienamen/Magiccie.png);
+    background-repeat: no-repeat;
+    background-position-x:  right;
+    background-position-y:  10px;
 }
 
 .Section-Category-humans-versus-zombies .Role_Apocalypcie {
-    background: url(http://plaatjes.duivelsei.nl/Commissienamen/Apocalypcie.png) no-repeat top right;
+    background-color: hsl(0, 100%, 100%);
+    background-image: url(http://plaatjes.duivelsei.nl/Commissienamen/Apocalypcie.png);
+    background-repeat: no-repeat;
+    background-position-x:  right;
+    background-position-y:  10px;
 }
 
 .MItem{
@@ -677,7 +699,7 @@ h4 > a{
 
 .FormTitleWrapper{
     padding: 15px;
-    background-color: #fff;
+    background: #fff !important;
     box-shadow: #CED2DB 0 1px 2px 0;
 }
 
