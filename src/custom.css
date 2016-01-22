@@ -673,6 +673,13 @@ h4 > a{
     box-shadow: #CED2DB 0 1px 2px 0;
 }
 
+.EasyMembersListTable{
+    padding: 15px;
+    background: #fff !important;
+    box-shadow: #CED2DB 0 1px 2px 0;
+    border-radius: 3px;
+}
+
 .DiscussionForm{
     padding: 15px;
     background-color: #fff;
