@@ -4,14 +4,17 @@ hmtl{
     min-width: 1000px;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     height: 100%;
     background-color: hsla(0,0%,85%,1);
     min-width: 730px;
     width: auto !important;
     width: 730px;
-    background-image: url(http://4.bp.blogspot.com/-Ppq8TAWLHtY/Vdsb7vQ0fqI/AAAAAAAACeo/KwufsBsRXRc/s0/dui-ei%2Blogo%2Bgrijs600.png) no-repeat fixed bottom right;
+    background-image: url(http://plaatjes.duivelsei.nl/dui-ei%20logo%20grijs600%20-%20lichter.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 99%;
 }
 
 
@@ -24,6 +27,7 @@ body{
     width: 100%;
     margin: 0;
     height: 100%;
+    display: table;
     overflow: hidden;
     padding-bottom: px;
 }
@@ -167,7 +171,6 @@ a:hover .TextColor {
 }
 
 #Head {
-    /* background: #F31313; */
     color: hsl(0, 100%, 50%);
 }
 
@@ -257,8 +260,6 @@ body > #Frame > .Head {
 }
 
 #Body{
-    /* padding-left: 1%; */
-    /* padding-right: 1%; */
     width: 100%;
 }
 
@@ -273,20 +274,9 @@ body > #Frame > .Head {
     -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.85);
     -moz-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.65);
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.85);
-    /*
-No overflow hidden on main elements. Causes too many bugs!
-overflow: hidden;
-
-
-}
-
-#Panel > :first-child {
-	margin-top: 0;
-*/
     height: 100%;
     color: #fff;
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
+    padding-bottom: 10px;
 }
 
 @media screen and (min-width: 1160px){
@@ -336,9 +326,7 @@ overflow: hidden;
 
 
 .PostDate{
-    /* font-size: 11px; */
     font-weight: bold;
-    /* color: #929292; */
 }
 
 
@@ -375,7 +363,6 @@ overflow: hidden;
 }
 
 .ContentColumn {
-    /* width: 100%; */
     padding: 20px;
     box-sizing: border-box;
     background: none;
@@ -540,25 +527,12 @@ overflow: hidden;
 
 .Onlinemodule .Box {
     padding: 15px;
-    /* padding-top: 15px; */
-    /* padding-right: 15px; */
-    /* padding-bottom: 15px; */
-    /* padding-left: 15px; */
     box-sizing: border-box;
-    /* margin: 15px auto; */
-    /* margin-top: 15px; */
-    /* margin-right: auto; */
-    /* margin-bottom: 15px; */
-    /* margin-left: 222px; */
-    /* background: hsl(7, 74%, 39%); */
-    /* color: black; */
     text-align: center;
 }
 
 #Foot .Row{
    width: 100%;
-
-   /* background-color: hsl(7, 74%, 39%); */
 }
 
 #Foot a {
@@ -615,7 +589,6 @@ overflow: hidden;
 
 .LocaleOptions {
     color:  black;
-    /* margin: 15px auto 15px 222px; */
 }
 
 blockquote, blockquote.UserQuote {
@@ -628,6 +601,7 @@ blockquote, blockquote.UserQuote {
 }
 #Foot{
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 
@@ -652,7 +626,7 @@ blockquote, blockquote.UserQuote {
 }
 
 
-.Section-Category-Accie .Role_Accie {
+.Section-Accie .Role_Accie {
     background-color: hsl(0, 100%, 100%);
     background-image: url(http://plaatjes.duivelsei.nl/Commissienamen/Accie.png);
     background-size: 180px 40px;
