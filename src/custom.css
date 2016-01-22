@@ -85,14 +85,14 @@ body {
     margin-bottom: 5px;
 }
 
-.BigButton:active{
-    box-shadow: none;
-    background-color: #791F14;
-}
-
 .BigButton:hover{
     box-shadow: 0px 1px 2px #000;
     background-color: #962416;
+}
+
+.BigButton:active{
+    box-shadow: none;
+    background-color: #791F14;
 }
 
 .BigButton{
