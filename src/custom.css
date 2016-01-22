@@ -408,6 +408,13 @@ overflow: hidden;
     margin-bottom: 10px;
 }
 
+.User{
+    background-color: hsl(0, 100%, 100%);
+    box-shadow: #CED2DB 0 1px 2px 0;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
 .UserSignature{
     border-top: 2px solid #ddd;
 }
@@ -614,6 +621,19 @@ h4 > a{
 }
 
 .ActivityFormWrap{
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: #CED2DB 0 1px 2px 0;
+    margin-bottom: 10px;
+}
+
+.DataListWrap .H{
+    padding: 15px;
+    background-color: #fff;
+    margin-bottom: 0;
+}
+
+.FormWrapper.FormWrapper-Condensed{
     padding: 15px;
     background-color: #fff;
     box-shadow: #CED2DB 0 1px 2px 0;
