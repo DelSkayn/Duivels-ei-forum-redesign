@@ -55,6 +55,37 @@ body{
     margin-bottom: 5px;
 }
 
+.ProfileOptions:active{
+    box-shadow: none;
+    background-color: #791F14;
+}
+
+.ProfileOptions:hover{
+    box-shadow: 0px 1px 2px #000;
+    background-color: #962416;
+}
+
+.ProfileOptions{
+    margin-top: 15px;
+    margin-right: 15px;
+    font-size: 14px;
+    box-shadow: 0px 2px 4px #000;
+    background-image: none;
+    text-shadow: none;
+    font-weight: normal;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-weight: lighter;
+    color: #fff;
+    background-color: #AD2A1A;
+    margin-bottom: 5px;
+}
+
+.ProfileOptions a{
+    color: #fff;
+}
+
 .Button:active{
     box-shadow: none;
     background-color: #791F14;
@@ -698,6 +729,10 @@ textarea.TextBox:focus{
     font-size: 1rem;
     font-weight: normal;
     border-bottom: 2px solid #9e9e9e;
+}
+
+body.Profile.EditMode #Content form{
+    background: none;
 }
 
 input.InputBox{
