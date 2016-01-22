@@ -14,6 +14,10 @@ body {
     background-position: bottom right;
 }
 
+pre{
+    white-space: pre-wrap;
+}
+
 
 #loginPanel .panelContent{
     background-color: #AD2A1A !important;
@@ -270,7 +274,7 @@ body > #Frame > .Head {
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.85);
     color: #fff;
     padding-bottom: 10px;
-    width: 200px
+    width: 300px
 }
 
 
